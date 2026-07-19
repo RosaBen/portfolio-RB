@@ -7,7 +7,30 @@
   box-sizing: border-box;
 }
 
+:root {
+  --gradient-color: linear-gradient(to right, #8a2be2, #0000ff, #9aa4b2);
+}
+
 body {
   background-color: black;
   color: white;
+}
+
+header .animated-border {
+  height: 0.5rem;
+  background: var(--gradient-color);
+  background-size: 800% 800%;
+  animation: gradient 20s ease-in infinite;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 43%;
+  }
+  50% {
+    background-position: 100% 58%;
+  }
+  100% {
+    background-position: 0% 43%;
+  }
 }

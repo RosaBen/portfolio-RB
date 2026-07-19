@@ -8,6 +8,7 @@ function App() {
     <div className="container">
       <header>
         <Navbar />
+        <div className="animated-border"></div>
       </header>
     </div>
   );
