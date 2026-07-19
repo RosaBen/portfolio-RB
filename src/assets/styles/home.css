@@ -13,10 +13,64 @@
   background-repeat: no-repeat;
   content: "";
   inset: 0;
-  opacity: 0.2;
+  opacity: 0.15;
   z-index: 0;
 }
 
 .home-content {
   z-index: 1;
+}
+
+.home-content h2 {
+  font-size: 4rem;
+  margin-bottom: 1rem;
+}
+
+.home-content span {
+  background: var(--gradient-text);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.home-content h3 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.home-content p {
+  color: var(--grey-color);
+  font-size: 2rem;
+  width: 700px;
+  margin-bottom: 1.5rem;
+  line-height: 1.5;
+}
+
+.home-btns {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2.5rem;
+}
+
+button {
+  width: 250px;
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  padding: 1rem;
+  border-radius: 2rem;
+  font-size: 1.2rem;
+  letter-spacing: 0.3px;
+  font-weight: 700;
+  color: var(--white-color);
+  border: 0.2rem solid var(--grey-color);
+  cursor: pointer;
+}
+
+.home-btns button:nth-child(1) {
+  background: var(--gradient-text);
+}
+
+.home-btns button:nth-child(2) {
+  background: black;
 }
