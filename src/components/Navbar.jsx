@@ -1,23 +1,25 @@
+import { Link } from "react-router-dom";
+
 export default function Navbar() {
   return (
     <nav>
       <h1>Rosa Benchabane</h1>
       <ul>
         <li>
-          <a href="/">Accueil</a>
+          <Link to="/">Accueil</Link>
         </li>
         <li>
-          <a href="#">A propos de moi</a>
+          <Link to="/aboutme">A propos de moi</Link>
+        </li>
+        {/* <li>
+          <Link to="/contents">Sommaire</Link>
         </li>
         <li>
-          <a href="#">Sommaire</a>
+          <Link to="/projects">Projects</Link>
         </li>
         <li>
-          <a href="#">Projects</a>
-        </li>
-        <li>
-          <a href="#">Formations</a>
-        </li>
+          <Link to="/courses">Formations</Link>
+        </li> */}
       </ul>
     </nav>
   );
