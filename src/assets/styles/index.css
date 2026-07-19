@@ -21,6 +21,8 @@ body {
   color: white;
 }
 
+/* header */
+
 header .animated-border {
   height: 0.5rem;
   background: var(--gradient-border);
@@ -38,4 +40,23 @@ header .animated-border {
   100% {
     background-position: 0% 43%;
   }
+}
+
+/* main */
+
+main {
+  background:
+    radial-gradient(
+      1200px 1000px at 20% 20%,
+      rgba(8, 26, 184, 0.4),
+      transparent 60%
+    ),
+    radial-gradient(
+      1200px 1000px at 100% 100%,
+      rgba(176, 167, 204, 0.3),
+      transparent 60%
+    ),
+    #0b0e14;
+  background-attachment: fixed;
+  -webkit-font-smoothing: antialiased;
 }
