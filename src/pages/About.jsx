@@ -1,6 +1,7 @@
-export default function About() {
+export default function About({ skills }) {
+  const skillsList = skills.map((skill) => <li key={skill}>{skill}</li>);
   return (
-    <>
+    <main className="about-section">
       <section className="about-me">
         <h2>Mon histoire</h2>
         <p>
@@ -8,7 +9,7 @@ export default function About() {
           logiciel SAAS que j'ai découvert ce métier de la programmation.
         </p>
         <p>
-          Je dvais remonter les bugs détaillés à l'équipe produit et petit à
+          Je devais remonter les bugs détaillés à l'équipe produit et petit à
           petit je commençais à comprendre certaines informations et le
           fonctionnement de certains code.
         </p>
@@ -20,8 +21,8 @@ export default function About() {
       </section>
       <section className="about-skills">
         <h2>Mes compétences techniques</h2>
-        <ul></ul>
+        <ul>{skillsList}</ul>
       </section>
-    </>
+    </main>
   );
 }

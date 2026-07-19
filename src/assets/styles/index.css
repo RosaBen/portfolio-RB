@@ -14,10 +14,11 @@
   --blue-color: #0000ff;
   --purple-color: #8a2be2;
   --white-color: #eef1f6;
+  --card-bg: rgba(16, 20, 29, 0.2);
 }
 
 body {
-  background-color: black;
+  background-color: rgb(0, 0, 0);
   color: white;
 }
 

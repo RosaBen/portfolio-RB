@@ -9,12 +9,14 @@ import About from "./pages/About";
 import Navbar from "./components/Navbar";
 
 // scripts
-
 import { skills } from "./assets/scripts/data.js";
+
 // CSS
 import "./assets/styles/navbar.css";
 import "./assets/styles/home.css";
+import "./assets/styles/about.css";
 
+// App
 function App() {
   return (
     <div className="container">
@@ -22,12 +24,10 @@ function App() {
         <Navbar />
         <div className="animated-border"></div>
       </header>
-      <main>
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/aboutme" element={<About />} />
-        </Routes>
-      </main>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/aboutme" element={<About skills={skills} />} />
+      </Routes>
     </div>
   );
 }
