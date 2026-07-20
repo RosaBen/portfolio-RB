@@ -1,0 +1,97 @@
+.projects-page {
+  margin: 3rem;
+}
+
+.projects-page h2 {
+  margin: 0 0.5rem 3rem;
+  font-size: 3rem;
+  text-align: center;
+}
+
+.projects-cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  align-items: center;
+  justify-items: center;
+}
+
+.card-infos img {
+  width: 250px;
+  height: 200px;
+  object-fit: contain;
+}
+
+.card {
+  background-color: var(--grey-color);
+  border-radius: 2rem;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  box-shadow: 5px 5px 3px var(--white-color);
+  width: 600px;
+}
+
+.card h3 {
+  margin-bottom: 2rem;
+  text-transform: uppercase;
+  font-size: 1.5rem;
+}
+
+.card-infos {
+  display: flex;
+  gap: 0.8rem;
+  align-items: center;
+  padding-bottom: 5rem;
+}
+
+.card-infos ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+.card-infos ul li {
+  background-color: var(--card-bg);
+  display: inline-block;
+  border-radius: 2rem;
+  padding: 0.5rem;
+  box-shadow: 5px 5px 3px var(--blue-color);
+}
+
+.card-infos p {
+  line-height: 1.5;
+}
+
+.card-infos h5 {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+
+.card-btns {
+  position: absolute;
+  bottom: 1.5rem;
+  display: flex;
+  gap: 1rem;
+}
+
+.card-btns button {
+  width: 200px;
+  box-shadow: 5px 5px 3px var(--white-color);
+  padding: 0.3rem;
+  cursor: pointer;
+  border: none;
+  background-color: var(--card-bg);
+}
+
+.card-btns button a {
+  color: var(--blue-color);
+}
+
+.card-btns button:hover {
+  opacity: 0.5;
+}

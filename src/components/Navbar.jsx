@@ -11,15 +11,12 @@ export default function Navbar() {
         <li>
           <Link to="/aboutme">A propos de moi</Link>
         </li>
-        {/* <li>
-          <Link to="/contents">Sommaire</Link>
-        </li>
         <li>
           <Link to="/projects">Projects</Link>
         </li>
         <li>
           <Link to="/courses">Formations</Link>
-        </li> */}
+        </li>
       </ul>
     </nav>
   );
