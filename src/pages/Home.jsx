@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 export default function Home() {
   return (
     <main>
@@ -13,8 +14,16 @@ export default function Home() {
           </p>
           <p>Bienvenue dans mon portfolio</p>
           <div className="home-btns">
-            <button>Visiter mes projets</button>
-            <button>Voir mon profil</button>
+            <button>
+              <Link to="/projects" target="_blank" rel="noopener noreferrer">
+                Visiter mes projets
+              </Link>
+            </button>
+            <button>
+              <Link to="/aboutme" target="_blank" rel="noopener noreferrer">
+                Voir mon profil
+              </Link>
+            </button>
           </div>
         </section>
       </div>
