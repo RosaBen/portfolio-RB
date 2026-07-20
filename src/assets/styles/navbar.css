@@ -25,13 +25,13 @@ nav ul li {
   list-style: none;
 }
 
-a {
+nav a {
   color: var(--grey-color);
   text-decoration: none;
   font-size: 1.3rem;
   font-weight: bold;
 }
 
-a:hover {
+nav a:hover {
   color: var(--white-color);
 }
