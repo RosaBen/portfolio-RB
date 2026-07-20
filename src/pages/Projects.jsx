@@ -3,14 +3,17 @@ export default function Projects({ projects }) {
     const skillsList = p.skills.map((skill) => <li key={skill}>{skill}</li>);
 
     return (
-      <div key={index}>
-        <img src={p.image} alt={p.title} />
-        <div>
-          <h3>{p.title}</h3>
-          <p>{p.description}</p>
-          <ul>{skillsList}</ul>
+      <div key={index} className={`card${index + 1} card`}>
+        <h3>{p.title}</h3>
+        <div className="card-infos">
+          <img src={p.image} alt={p.title} />
+          <div>
+            <h5>Description:</h5>
+            <p>{p.description}</p>
+            <ul>{skillsList}</ul>
+          </div>
         </div>
-        <div>
+        <div className="card-btns">
           <button>
             <a href={p.linkToWebsite}>Voir mon site</a>
           </button>

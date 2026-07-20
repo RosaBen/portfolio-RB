@@ -16,6 +16,7 @@ import { skills, projects } from "./assets/scripts/data.js";
 import "./assets/styles/navbar.css";
 import "./assets/styles/home.css";
 import "./assets/styles/about.css";
+import "./assets/styles/projects.css";
 
 // App
 function App() {
