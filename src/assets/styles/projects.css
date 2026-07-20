@@ -31,7 +31,7 @@
   align-items: center;
   position: relative;
   box-shadow: 5px 5px 3px var(--white-color);
-  width: 600px;
+  width: 700px;
 }
 
 .card h3 {
@@ -82,14 +82,18 @@
 .card-btns button {
   width: 200px;
   box-shadow: 5px 5px 3px var(--white-color);
-  padding: 0.3rem;
+  padding: 0.5rem;
   cursor: pointer;
   border: none;
   background-color: var(--card-bg);
+  border-radius: 2rem;
 }
 
 .card-btns button a {
   color: var(--blue-color);
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-weight: 700;
 }
 
 .card-btns button:hover {
