@@ -23,7 +23,9 @@
 
 .card-infos {
   display: flex;
-  flex-direction: column;
+  gap: 0.8rem;
+  align-items: center;
+  padding-bottom: 5rem;
 }
 
 .card-footer {
