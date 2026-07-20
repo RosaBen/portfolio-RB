@@ -15,10 +15,14 @@ export default function Projects({ projects }) {
         </div>
         <div className="card-btns">
           <button>
-            <a href={p.linkToWebsite}>Voir mon site</a>
+            <a href={p.linkToWebsite} target="_blank" rel="noopener noreferrer">
+              Voir mon site
+            </a>
           </button>
           <button>
-            <a href={p.linktoGithub}>Repo Github</a>
+            <a href={p.linktoGithub} target="_blank" rel="noopener noreferrer">
+              Repo Github
+            </a>
           </button>
         </div>
       </div>
