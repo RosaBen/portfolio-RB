@@ -4,12 +4,13 @@ import { Routes, Route } from "react-router-dom";
 // Import pages
 import Home from "./pages/Home";
 import About from "./pages/About";
+import Projects from "./pages/Projects";
 
 // Import components
 import Navbar from "./components/Navbar";
 
 // scripts
-import { skills } from "./assets/scripts/data.js";
+import { skills, projects } from "./assets/scripts/data.js";
 
 // CSS
 import "./assets/styles/navbar.css";
@@ -24,9 +25,11 @@ function App() {
         <Navbar />
         <div className="animated-border"></div>
       </header>
+
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/aboutme" element={<About skills={skills} />} />
+        <Route path="/projects" element={<Projects projects={projects} />} />
       </Routes>
     </div>
   );
