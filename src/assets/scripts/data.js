@@ -4,6 +4,7 @@ import blog from "../images/traveljourney.jpg";
 import businessC from "../images/businesscard.jpg";
 import chefClaude from "../images/chefClaude.jpg";
 import memeGen from "../images/memeGenerator.jpg";
+import tenzies from "../images/tenzies.webp";
 
 // images logos from courses
 
@@ -55,6 +56,14 @@ export const projects = [
     linkToWebsite: "https://memegenerator-rb.netlify.app/",
     linktoGithub: "https://github.com/RosaBen/meme-generator-rb",
     skills: ["HTML&CSS", "Javascript", "React", "API"]
+  },
+  {
+    title: "Jouer à Tenzies",
+    description: "page dynamique - Récupérer les 10 chiffres pareils",
+    image: tenzies,
+    linkToWebsite: "https://tenzies-rb.netlify.app/",
+    linktoGithub: "https://github.com/RosaBen/tenzies-rb",
+    skills: ["HTML&CSS", "Javascript", "React"]
   },
 ];
 
