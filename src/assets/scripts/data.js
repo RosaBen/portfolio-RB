@@ -5,6 +5,7 @@ import businessC from "../images/businesscard.jpg";
 import chefClaude from "../images/chefClaude.jpg";
 import memeGen from "../images/memeGenerator.jpg";
 import tenzies from "../images/tenzies.webp";
+import assembly from "../images/assemblygame.webp";
 
 // images logos from courses
 
@@ -63,6 +64,14 @@ export const projects = [
     image: tenzies,
     linkToWebsite: "https://tenzies-rb.netlify.app/",
     linktoGithub: "https://github.com/RosaBen/tenzies-rb",
+    skills: ["HTML&CSS", "Javascript", "React"]
+  },
+  {
+    title: "Jouer à Assembly -EndGame ",
+    description: "page dynamique - Trouver le mot en 8 coups",
+    image: assembly,
+    linkToWebsite: "https://rb-assembly-endgame.netlify.app/",
+    linktoGithub: "https://github.com/RosaBen/rb-assembly-endgame",
     skills: ["HTML&CSS", "Javascript", "React"]
   },
 ];
