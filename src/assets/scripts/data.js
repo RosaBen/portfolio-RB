@@ -6,6 +6,7 @@ import chefClaude from "../images/chefClaude.jpg";
 import memeGen from "../images/memeGenerator.jpg";
 import tenzies from "../images/tenzies.webp";
 import assembly from "../images/assemblygame.webp";
+import quizzical from "../images/quizzical.jpg";
 
 // images logos from courses
 
@@ -16,7 +17,7 @@ import thp from "../images/thp.jpg";
 import wcs from "../images/wildcodeschool.jpg";
 
 // skills
-export const skills = ["HTML&CSS", "Javascript", "React", "Node.js", "Git", "Vite"];
+export const skills = ["HTML&CSS", "Javascript", "React", "Node.js", "Git", "Vite", "API"];
 
 // my projects
 export const projects = [
@@ -73,6 +74,14 @@ export const projects = [
     linkToWebsite: "https://rb-assembly-endgame.netlify.app/",
     linktoGithub: "https://github.com/RosaBen/rb-assembly-endgame",
     skills: ["HTML&CSS", "Javascript", "React"]
+  },
+  {
+    title: "Répondre au quiz",
+    description: "page dynamique- SPA - sélectionner un réponse par question",
+    image: quizzical,
+    linkToWebsite: "https://quizzical-rb.netlify.app/",
+    linktoGithub: "https://github.com/RosaBen/Scrimba-quizz",
+    skills: ["HTML&CSS", "Javascript", "React", "API"]
   },
 ];
 
