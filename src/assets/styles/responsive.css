@@ -37,6 +37,23 @@
   .about-section h3 {
     font-size: 1.7rem;
   }
+  .projects-page {
+    max-width: 900px;
+  }
+
+  .projects-cards {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .card img {
+    width: 250px;
+    height: auto;
+  }
+
+  .card-infos {
+    gap: 0.5rem;
+    align-items: center;
+  }
 }
 
 @media screen and (min-width: 1901px) {
@@ -121,5 +138,23 @@
   }
   .about-skills {
     grid-area: card2;
+  }
+
+  .projects-page {
+    max-width: 1200px;
+  }
+
+  .projects-page h2 {
+    margin-top: 1rem;
+    font-size: 2.5rem;
+  }
+
+  .projects-cards {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+
+  .card h3 {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
   }
 }
