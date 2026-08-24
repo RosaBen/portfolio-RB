@@ -16,7 +16,7 @@ import thp from "../images/thp.jpg";
 import wcs from "../images/wildcodeschool.jpg";
 
 // skills
-export const skills = ["HTML&CSS", "Javascript", "React", "Node.js", "Git", "Vite"];
+export const skills = ["HTML&CSS", "Javascript", "React", "Node.js", "Git", "Vite", "express", "API"];
 
 // my projects
 export const projects = [
