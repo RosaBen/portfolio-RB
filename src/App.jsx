@@ -19,6 +19,7 @@ import "./assets/styles/home.css";
 import "./assets/styles/about.css";
 import "./assets/styles/projects.css";
 import "./assets/styles/courses.css";
+import "./assets/styles/responsive.css";
 
 // App
 function App() {

@@ -1,0 +1,40 @@
+/* @media screen and (min-width: 901px) {
+  .container {
+    max-width: 900px;
+  }
+} */
+
+/* @media screen and (min-width: 1901px) {
+  .container {
+    max-width: 1900px;
+  }
+  nav {
+    padding: 1.5rem;
+  }
+  nav h1 {
+    padding-left: 3rem;
+    letter-spacing: 0.5px;
+    background: var(--gradient-text);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
+
+  nav .desktop-nav ul {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    padding-right: 3rem;
+  }
+  nav .menu-icon {
+    display: none;
+  }
+
+  nav .modal {
+    display: none;
+  }
+
+  nav .desktop-nav {
+    display: block;
+  }
+} */

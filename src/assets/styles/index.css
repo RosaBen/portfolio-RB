@@ -36,6 +36,12 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
+.container {
+  width: 100%;
+  max-width: 375px;
+  margin: 0 auto;
+}
+
 /* header */
 
 header .animated-border {
