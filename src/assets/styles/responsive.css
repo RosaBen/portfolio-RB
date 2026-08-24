@@ -1,0 +1,199 @@
+@media screen and (min-width: 901px) {
+  .container {
+    max-width: 900px;
+  }
+
+  .card img {
+    width: 250px;
+    height: auto;
+  }
+
+  /* HOME */
+
+  .home-content {
+    max-width: 900px;
+  }
+
+  .home-content h2 {
+    font-size: 3rem;
+  }
+
+  .home-content h3 {
+    font-size: 2.5rem;
+  }
+
+  .home-content p {
+    font-size: 2rem;
+    width: 600px;
+  }
+
+  .home-btns {
+    flex-direction: row;
+  }
+
+  /* ABOUT */
+
+  .about-section {
+    max-width: 900px;
+    margin: 1rem auto;
+  }
+  .about-section section {
+    width: calc((900px - 32px));
+  }
+  .about-section h2 {
+    font-size: 2.5rem;
+  }
+  .about-section h3 {
+    font-size: 1.7rem;
+  }
+
+  /* PROJECTS */
+  .projects-page {
+    max-width: 900px;
+  }
+
+  .projects-cards {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .card-infos {
+    gap: 0.5rem;
+    align-items: center;
+  }
+
+  /* COURSES */
+
+  .courses-cards {
+    max-width: 900px;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .courses-cards .card {
+    min-height: 600px;
+  }
+
+  .courses-cards .card-infos img {
+    width: 200px;
+    object-fit: contain;
+  }
+}
+
+@media screen and (min-width: 1901px) {
+  .container {
+    max-width: 1900px;
+  }
+
+  .card h3 {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  /* NAVBAR */
+
+  nav {
+    padding: 1.5rem;
+  }
+  nav h1 {
+    padding-left: 3rem;
+    letter-spacing: 0.5px;
+    background: var(--gradient-text);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
+
+  nav .desktop-nav ul {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    padding-right: 3rem;
+  }
+  nav .menu-icon {
+    display: none;
+  }
+
+  nav .modal {
+    display: none;
+  }
+
+  nav .desktop-nav {
+    display: block;
+  }
+
+  /* HOME */
+
+  .home-page {
+    height: 100vh;
+  }
+
+  .home-content h2 {
+    font-size: 4rem;
+  }
+
+  .home-content {
+    z-index: 1;
+  }
+
+  .home-content h3 {
+    font-size: 3rem;
+  }
+
+  .home-content p {
+    font-size: 2rem;
+    width: 700px;
+  }
+
+  /* ABOUT */
+
+  .about-section {
+    grid-template-columns: 1fr 1fr;
+    max-width: 1200px;
+    margin: 1rem auto;
+    gap: 2rem;
+    grid-template-areas:
+      "h2 h2"
+      "card1 card2";
+  }
+  .about-section section {
+    width: calc((1200px - 32px) / 2);
+  }
+  .about-section h2 {
+    margin: 0 0.5rem 2rem;
+    font-size: 3rem;
+    grid-area: h2;
+  }
+  .about-section h3 {
+    margin: 0 0.5rem 2rem;
+    font-size: 1.7rem;
+  }
+
+  .about-me {
+    grid-area: card1;
+  }
+  .about-skills {
+    grid-area: card2;
+  }
+
+  /* PROJECTS */
+
+  .projects-page {
+    max-width: 1200px;
+  }
+
+  .projects-page h2 {
+    margin-top: 1rem;
+    font-size: 2.5rem;
+  }
+
+  .projects-cards {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+
+  /* COURSES */
+
+  .courses-cards {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    max-width: 1700px;
+    gap: 0.5rem;
+  }
+}

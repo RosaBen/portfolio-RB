@@ -1,17 +1,15 @@
 .about-section {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr;
+  justify-items: center;
   width: 100%;
-  max-width: 1200px;
-  margin: 10rem auto;
-  gap: 2rem;
-  grid-template-areas:
-    "h2 h2"
-    "card1 card2";
+  max-width: 375px;
+  margin: 0rem auto 2rem;
+  gap: 1rem;
 }
 
 .about-section section {
-  width: calc((1200px - 32px) / 2);
+  width: calc((375px - 32px));
   background-color: var(--grey-color);
   padding: 1.5rem;
   border-radius: 2rem;
@@ -21,15 +19,13 @@
 }
 
 .about-section h2 {
-  margin: 0 0.5rem 2rem;
-  font-size: 3rem;
+  margin-top: 1rem;
+  font-size: 2rem;
   text-align: center;
-  grid-area: h2;
 }
 
 .about-section h3 {
-  margin: 0 0.5rem 2rem;
-  font-size: 1.7rem;
+  font-size: 1.5rem;
   color: var(--blue-color);
 }
 
@@ -42,6 +38,7 @@
 
 .about-skills li {
   list-style: none;
+  text-align: center;
   padding: 1rem;
   background-color: var(--card-bg);
   border-radius: 2rem;
@@ -49,10 +46,8 @@
   color: var(--blue-color);
   font-weight: 700;
   border: 0.3rem solid var(--white-color);
-}
-
-.about-me {
-  grid-area: card1;
+  min-width: 100px;
+  text-transform: uppercase;
 }
 
 .about-me p {
@@ -63,7 +58,6 @@
 }
 
 .about-skills {
-  grid-area: card2;
   display: flex;
   flex-direction: column;
   gap: 2rem;
