@@ -3,6 +3,13 @@
     max-width: 900px;
   }
 
+  .card img {
+    width: 250px;
+    height: auto;
+  }
+
+  /* HOME */
+
   .home-content {
     max-width: 900px;
   }
@@ -24,6 +31,8 @@
     flex-direction: row;
   }
 
+  /* ABOUT */
+
   .about-section {
     max-width: 900px;
     margin: 1rem auto;
@@ -37,6 +46,8 @@
   .about-section h3 {
     font-size: 1.7rem;
   }
+
+  /* PROJECTS */
   .projects-page {
     max-width: 900px;
   }
@@ -45,14 +56,25 @@
     grid-template-columns: 1fr 1fr;
   }
 
-  .card img {
-    width: 250px;
-    height: auto;
-  }
-
   .card-infos {
     gap: 0.5rem;
     align-items: center;
+  }
+
+  /* COURSES */
+
+  .courses-cards {
+    max-width: 900px;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .courses-cards .card {
+    min-height: 600px;
+  }
+
+  .courses-cards .card-infos img {
+    width: 200px;
+    object-fit: contain;
   }
 }
 
@@ -60,6 +82,13 @@
   .container {
     max-width: 1900px;
   }
+
+  .card h3 {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  /* NAVBAR */
 
   nav {
     padding: 1.5rem;
@@ -91,6 +120,8 @@
     display: block;
   }
 
+  /* HOME */
+
   .home-page {
     height: 100vh;
   }
@@ -111,6 +142,9 @@
     font-size: 2rem;
     width: 700px;
   }
+
+  /* ABOUT */
+
   .about-section {
     grid-template-columns: 1fr 1fr;
     max-width: 1200px;
@@ -140,6 +174,8 @@
     grid-area: card2;
   }
 
+  /* PROJECTS */
+
   .projects-page {
     max-width: 1200px;
   }
@@ -153,8 +189,11 @@
     grid-template-columns: 1fr 1fr 1fr 1fr;
   }
 
-  .card h3 {
-    margin-top: 1rem;
-    margin-bottom: 1rem;
+  /* COURSES */
+
+  .courses-cards {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    max-width: 1700px;
+    gap: 0.5rem;
   }
 }
