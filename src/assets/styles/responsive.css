@@ -23,6 +23,20 @@
   .home-btns {
     flex-direction: row;
   }
+
+  .about-section {
+    max-width: 900px;
+    margin: 1rem auto;
+  }
+  .about-section section {
+    width: calc((900px - 32px));
+  }
+  .about-section h2 {
+    font-size: 2.5rem;
+  }
+  .about-section h3 {
+    font-size: 1.7rem;
+  }
 }
 
 @media screen and (min-width: 1901px) {
@@ -79,5 +93,33 @@
   .home-content p {
     font-size: 2rem;
     width: 700px;
+  }
+  .about-section {
+    grid-template-columns: 1fr 1fr;
+    max-width: 1200px;
+    margin: 1rem auto;
+    gap: 2rem;
+    grid-template-areas:
+      "h2 h2"
+      "card1 card2";
+  }
+  .about-section section {
+    width: calc((1200px - 32px) / 2);
+  }
+  .about-section h2 {
+    margin: 0 0.5rem 2rem;
+    font-size: 3rem;
+    grid-area: h2;
+  }
+  .about-section h3 {
+    margin: 0 0.5rem 2rem;
+    font-size: 1.7rem;
+  }
+
+  .about-me {
+    grid-area: card1;
+  }
+  .about-skills {
+    grid-area: card2;
   }
 }
