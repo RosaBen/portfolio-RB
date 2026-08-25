@@ -44,14 +44,16 @@ export const projects = [
     linkToWebsite: "https://traveljourneyrb.netlify.app/",
     linktoGithub: "https://github.com/RosaBen/travel-journal",
     skills: ["HTML&CSS", "Javascript", "React"]
-  }, {
-    title: "Chef Claude",
-    description: "page dynamique- api - Créer une recette de cuisine avec les ingrédients disponibles",
-    image: chefClaude,
-    linkToWebsite: "https://chefclauderb.netlify.app/",
-    linktoGithub: "https://github.com/RosaBen/rb-chef-claude",
-    skills: ["HTML&CSS", "Javascript", "React", "API"]
-  }, {
+  },
+  // {
+  //   title: "Chef Claude",
+  //   description: "page dynamique- api - Créer une recette de cuisine avec les ingrédients disponibles",
+  //   image: chefClaude,
+  //   linkToWebsite: "https://chefclauderb.netlify.app/",
+  //   linktoGithub: "https://github.com/RosaBen/rb-chef-claude",
+  //   skills: ["HTML&CSS", "Javascript", "React", "API"]
+  // }, 
+  {
     title: "Generateur de meme",
     description: "page dynamique - api - Génerer des memes avec modification de texte",
     image: memeGen,
