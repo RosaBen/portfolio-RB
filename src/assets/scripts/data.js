@@ -47,11 +47,11 @@ export const projects = [
   },
   // {
   //   title: "Chef Claude",
-  //   description: "page dynamique- api - Créer une recette de cuisine avec les ingrédients disponibles",
+  //   description: "page dynamique- api - ai prompt - Créer une recette de cuisine avec les ingrédients disponibles",
   //   image: chefClaude,
-  //   linkToWebsite: "https://chefclauderb.netlify.app/",
-  //   linktoGithub: "https://github.com/RosaBen/rb-chef-claude",
-  //   skills: ["HTML&CSS", "Javascript", "React", "API"]
+  //   linkToWebsite: "",
+  //   linktoGithub: "https://github.com/RosaBen/chef-claude-v2",
+  //   skills: ["HTML&CSS", "Javascript", "React", "API", "AI prompt"]
   // }, 
   {
     title: "Generateur de meme",
